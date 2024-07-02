@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		@apply !scroll-smooth;
+	}
+	body {
+		@apply bg-zinc-950 text-zinc-50 overflow-x-hidden;
+	}
+	button {
+		@apply active:outline-none;
+	}
+}
+
+@layer utilities {
+	.heading {
+		@apply text-4xl md:text-5xl text-center;
+	}
+
+	.wrapper {
+		@apply w-full max-w-7xl px-5 sm:px-10 mx-auto;
+	}
+}
+
