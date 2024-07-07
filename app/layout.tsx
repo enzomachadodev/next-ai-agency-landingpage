@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { NavBar } from "@/components/nav-bar";
+import { Footer } from "@/components/footer";
 
 const font = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -27,7 +29,9 @@ export default function RootLayout({
 					enableSystem
 					disableTransitionOnChange
 				>
+					<NavBar />
 					{children}
+					<Footer />
 				</ThemeProvider>
 			</body>
 		</html>
