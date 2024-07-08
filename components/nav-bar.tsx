@@ -52,9 +52,9 @@ export const NavBar = () => {
 			<div className="w-full max-w-7xl lg:px-10 mx-auto lg:py-3">
 				<div
 					className={cn(
-						"py-2 flex items-center justify-between",
+						"flex items-center justify-between px-5 py-4 lg:px-0 lg:py-2",
 						onScroll &&
-							"border-b lg:border border-zinc-600 bg-zinc-900/70 backdrop-blur-sm px-5 py-4 lg:py-2 lg:pr-2 lg:pl-6 lg:rounded-full"
+							"border-b lg:border border-zinc-600 bg-zinc-900/70 backdrop-blur-sm lg:py-2 lg:pr-2 lg:pl-6 lg:rounded-full"
 					)}
 				>
 					<div className="flex items-center gap-5">

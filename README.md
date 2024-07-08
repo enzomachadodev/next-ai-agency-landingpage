@@ -8,4 +8,6 @@
 - [] criar logo
 - [] criar 3 postagens iniciais
 - [] configurar action buttons
+- [] configurar cookies
+- [] infinite scroll logo
 

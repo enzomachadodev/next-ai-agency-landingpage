@@ -5,10 +5,13 @@ import {
 	PiCpuLight,
 	PiDeviceMobileLight,
 	PiGear,
+	PiGithubLogoLight,
 	PiGlobeLight,
+	PiInstagramLogoLight,
 	PiLightbulb,
 	PiRobotThin,
 	PiTarget,
+	PiWhatsappLogoLight,
 } from "react-icons/pi";
 
 export const links = [
@@ -163,4 +166,27 @@ export const faq = [
 			"Na Zenith Labs, a segurança é nossa prioridade. Implementamos criptografia, controles de acesso, anonimização de dados e auditorias regulares de segurança para garantir a confidencialidade, integridade e disponibilidade dos dados processados por nossas soluções de automação com IA.",
 	},
 ];
+
+export const socials = {
+	phone: {
+		link: "tel:+5531998505936",
+		label: "+55 (31) 99850-5936",
+	},
+	email: {
+		link: "tel:+5531998505936",
+		label: "+55 (31) 99850-5936",
+	},
+	instagram: {
+		link: "tel:+5531998505936",
+		icon: PiInstagramLogoLight,
+	},
+	whatsapp: {
+		link: "tel:+5531998505936",
+		icon: PiWhatsappLogoLight,
+	},
+	github: {
+		link: "tel:+5531998505936",
+		icon: PiGithubLogoLight,
+	},
+};
 
