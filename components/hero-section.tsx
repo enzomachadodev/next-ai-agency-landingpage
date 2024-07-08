@@ -33,9 +33,10 @@ export const HeroSection = () => {
 					<Image
 						src="/images/hero.png"
 						alt="cubic image"
-						width={1000}
-						height={1000}
+						width={500}
+						height={500}
 						className="w-full h-full -ml-5 max-w-[500px]"
+						priority
 					/>
 				</div>
 			</div>
