@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { links } from "@/data";
 import { ShimmerButton } from "./ui/shimmer-button";
+import { links } from "@/data";
 import { cn } from "@/lib/utils";
 
 export const NavBar = () => {

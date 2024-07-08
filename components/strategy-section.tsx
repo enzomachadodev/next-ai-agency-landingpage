@@ -5,7 +5,6 @@ import { SectionTitle } from "./section-title";
 import { PiLightningLight } from "react-icons/pi";
 import { strategy } from "@/data";
 import { StrategyCard } from "./strategy-card";
-import { CanvasRevealEffect } from "./ui/canvas-reveal-effect";
 import { ActionButton } from "./ui/action-button";
 
 export const StrategySection = () => {

@@ -4,6 +4,7 @@ import { FAQSection } from "@/components/faq-section";
 import { HeroSection } from "@/components/hero-section";
 import { ServicesSection } from "@/components/services-section";
 import { StrategySection } from "@/components/strategy-section";
+import { WhatsappButton } from "@/components/whatsapp-button";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<StrategySection />
 			<FAQSection />
 			<CallSection />
+			<WhatsappButton />
 		</main>
 	);
 }

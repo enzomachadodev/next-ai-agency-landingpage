@@ -11,7 +11,7 @@ export const HeroSection = () => {
 			id="home"
 			className="w-full relative lg:bg-hero-pattern bg-contain bg-center"
 		>
-			<div className="relative top-0 left-0 bottom-0 right-0 pt-40 pb-28 bg-hero-gradient bg-cover bg-center">
+			<div className="relative top-0 left-0 bottom-0 right-0 pt-28 lg:pt-40 pb-28 bg-hero-gradient bg-cover bg-center">
 				<motion.div
 					initial={{ opacity: 0.0, y: 40 }}
 					whileInView={{ opacity: 1, y: 0 }}
