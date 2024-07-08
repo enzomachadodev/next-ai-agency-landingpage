@@ -7,7 +7,7 @@ import { ShimmerButton } from "./ui/shimmer-button";
 import { cn } from "@/lib/utils";
 
 export const NavBar = () => {
-	const [onScroll, setOnScroll] = useState<boolean>(true);
+	const [onScroll, setOnScroll] = useState<boolean>(false);
 	const [activeSection, setActiveSection] = useState<string>("");
 
 	const handleScroll = () => {
