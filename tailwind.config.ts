@@ -58,10 +58,6 @@ const config = {
 				"hero-pattern": "url('/images/hero-pattern.png')",
 				"hero-gradient": "url('/images/hero-gradient.png')",
 				"footer-gradient": "url('/images/footer-gradient.png')",
-				"gradient-1": "url('/images/gradient-1.png')",
-				"gradient-2": "url('/images/gradient-2.png')",
-				"gradient-3": "url('/images/gradient-3.png')",
-				"gradient-4": "url('/images/gradient-4.png')",
 			},
 			boxShadow: {
 				"inner-card": "inset 0px 0px 114px 0px rgba(255,216,26,0.1)",
