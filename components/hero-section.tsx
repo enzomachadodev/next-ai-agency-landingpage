@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
 import { ShimmerButton } from "./ui/shimmer-button";
 
@@ -9,7 +12,16 @@ export const HeroSection = () => {
 			className="w-full relative lg:bg-hero-pattern bg-contain bg-center"
 		>
 			<div className="relative top-0 left-0 bottom-0 right-0 pt-40 pb-28 bg-hero-gradient bg-cover bg-center">
-				<div className="wrapper flex flex-col items-center justify-between gap-10 lg:flex-row">
+				<motion.div
+					initial={{ opacity: 0.0, y: 40 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					transition={{
+						delay: 0.3,
+						duration: 0.8,
+						ease: "easeInOut",
+					}}
+					className="wrapper flex flex-col items-center justify-between gap-10 lg:flex-row"
+				>
 					<div className="w-full flex flex-col items-start max-w-[550px] gap-8">
 						<span className="text-zinc-400 font-medium text-xs lg:text-base tracking-[0.3rem] uppercase">
 							Transforme sua empresa
@@ -38,7 +50,7 @@ export const HeroSection = () => {
 						className="w-full h-full -ml-5 max-w-[500px]"
 						priority
 					/>
-				</div>
+				</motion.div>
 			</div>
 		</section>
 	);

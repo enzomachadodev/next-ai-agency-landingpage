@@ -1,7 +1,6 @@
-import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/canvas-reveal-effect";
-import { MovingBorderButton } from "./ui/moving-border";
 import { ShimmerButton } from "./ui/shimmer-button";
 
 type StrategyCardProps = {
