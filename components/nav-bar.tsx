@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ShimmerButton } from "./ui/shimmer-button";
 import { links } from "@/data";
 import { cn } from "@/lib/utils";
+import { MenuMobile } from "./menu-mobile";
 
 export const NavBar = () => {
 	const [onScroll, setOnScroll] = useState<boolean>(false);
@@ -104,6 +105,7 @@ export const NavBar = () => {
 					<ShimmerButton className="hidden lg:flex h-12">
 						Fale Conosco
 					</ShimmerButton>
+					<MenuMobile />
 				</div>
 			</div>
 		</header>
