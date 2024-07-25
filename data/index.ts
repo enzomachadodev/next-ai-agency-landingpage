@@ -173,19 +173,19 @@ export const socials = {
 		label: "+55 (31) 99850-5936",
 	},
 	email: {
-		link: "tel:+5531998505936",
-		label: "+55 (31) 99850-5936",
+		link: "mailto:enzomachadodev@gmail.com",
+		label: "enzomachadodev@gmail.com",
 	},
 	instagram: {
-		link: "tel:+5531998505936",
+		link: "/",
 		icon: PiInstagramLogoLight,
 	},
 	whatsapp: {
-		link: "tel:+5531998505936",
+		link: "https://api.whatsapp.com/send?phone=5531998505936&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20de%20tecnologia%20da%20sua%20empresa.",
 		icon: PiWhatsappLogoLight,
 	},
 	github: {
-		link: "tel:+5531998505936",
+		link: "https://github.com/enzomachadodev",
 		icon: PiGithubLogoLight,
 	},
 };
