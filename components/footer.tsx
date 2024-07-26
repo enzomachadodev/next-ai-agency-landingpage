@@ -12,7 +12,7 @@ export const Footer = () => {
 						href={"/"}
 						className="font-bold text-3xl"
 					>
-						Zenith <span className="text-primary-100">Labs</span>
+						Automize <span className="text-primary-100">Labs</span>
 					</Link>
 					<p className="max-w-[300px]">
 						Automatize, inove e lidere. Transforme o futuro da sua empresa com
@@ -39,14 +39,14 @@ export const Footer = () => {
 							size={24}
 							className="text-primary-100"
 						/>
-						<a href="mailto:contato@zenithlabs.com">contato@zenithlabs.com</a>
+						<a href={socials.email.link}>{socials.email.label}</a>
 					</div>
 					<div className="flex items-center gap-3">
 						<PiPhoneLight
 							size={24}
 							className="text-primary-100"
 						/>
-						<a href="tel:+5531998505936">{"+55 (31) 99850-5936"}</a>
+						<a href={socials.phone.link}>{socials.phone.label}</a>
 					</div>
 				</div>
 
@@ -82,7 +82,7 @@ export const Footer = () => {
 			</div>
 			<div className="w-full border-t border-zinc-600 mt-14 py-8">
 				<div className="wrapper lg:flex-row lg:justify-between gap-8 text-zinc-400 text-sm">
-					<span>© 2024 All Right Reserved by Zenith Labs</span>
+					<span>© 2024 All Right Reserved by Automize Labs</span>
 					<Link href={"/privacy-policy"}>Política de Privacidade</Link>
 				</div>
 			</div>

@@ -63,7 +63,7 @@ export const NavBar = () => {
 							href={"/"}
 							className="font-bold text-2xl"
 						>
-							Zenith <span className="text-primary-100">Labs</span>
+							Automize <span className="text-primary-100">Labs</span>
 						</Link>
 						<div className="hidden lg:block h-7 w-px bg-zinc-400" />
 						<nav className="hidden lg:flex items-center gap-5 text-zinc-300">

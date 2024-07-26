@@ -163,7 +163,7 @@ export const faq = [
 		id: 5,
 		question: "Quão seguras são as soluções de automação com IA?",
 		response:
-			"Na Zenith Labs, a segurança é nossa prioridade. Implementamos criptografia, controles de acesso, anonimização de dados e auditorias regulares de segurança para garantir a confidencialidade, integridade e disponibilidade dos dados processados por nossas soluções de automação com IA.",
+			"Na Automize Labs, a segurança é nossa prioridade. Implementamos criptografia, controles de acesso, anonimização de dados e auditorias regulares de segurança para garantir a confidencialidade, integridade e disponibilidade dos dados processados por nossas soluções de automação com IA.",
 	},
 ];
 

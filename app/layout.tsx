@@ -8,7 +8,7 @@ import "./globals.css";
 const font = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-	title: "Zenith Labs",
+	title: "Automize Labs",
 	description: "A Revolução da Inteligência Artificial ao Seu Alcance",
 };
 
